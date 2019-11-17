@@ -1,0 +1,30 @@
+<theme>
+    <formatVersion>6</formatVersion>
+	
+	<include>./../theme.xml</include>
+		
+	<view name="grid">	
+		<imagegrid name="gamegrid">
+			<pos>0.023 0.116</pos>
+			<size>1.0 0.50</size>
+			<margin>0.012 0.0</margin>
+			<scrollDirection>horizontal</scrollDirection>
+			<folderImage>./art/folder.png</folderImage>
+			
+		</imagegrid>
+		<gridtile name="default">
+			<size>0.182 0.55</size>
+			<padding>12 120</padding>
+			<backgroundImage>./tile.png</backgroundImage>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<backgroundColor>ffffff</backgroundColor>
+			<imageColor>ffffff</imageColor>
+		</gridtile>
+		<gridtile name="selected">
+			<size>0.182 0.55</size>
+			<backgroundImage>./tile-selected.png</backgroundImage>
+			<backgroundColor>ffffff</backgroundColor>
+		</gridtile>				
+	</view>
+
+</theme>

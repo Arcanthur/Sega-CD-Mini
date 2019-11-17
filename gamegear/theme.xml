@@ -1,0 +1,74 @@
+<theme>
+    <formatVersion>6</formatVersion>
+	
+	<include>./../theme.xml</include>
+		
+	<view name="grid">	
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../art/ggbackground.png</path>
+		</image>
+		<image name="titlebar" extra="true">
+			<pos>0.5 0.88</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>1.0 0.150</maxSize>
+			<path>./../art/titlebar.png</path>
+			<zIndex>175</zIndex>
+		</image>
+		<image name="settingsicon" extra="true">
+			<pos>0.14 0.10</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.95 0.09</maxSize>
+			<path>./../art/smssettingsicon.png</path>
+			<zIndex>176</zIndex>
+		</image>
+		<image name="sorticon" extra="true">
+			<pos>0.86 0.10</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.95 0.09</maxSize>
+			<path>./../art/smssorticon.png</path>
+			<zIndex>177</zIndex>
+		</image>
+		<image name="arrows" extra="true">
+			<pos>0.93 0.475</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.043 0.78</maxSize>
+			<path>./../art/arrows.png</path>
+			<zIndex>178</zIndex>
+		</image>
+		<text name="md_name">
+			<pos>0.5 0.87825</pos>
+			<size>0.68 0.0592592592592593</size>
+			<origin>0.5 0.5</origin>
+			<fontPath>./../art/sega.otf</fontPath>
+			<fontSize>0.036</fontSize>
+			<color>202020</color>
+			<forceUppercase>true</forceUppercase>	
+			<lineSpacing>1.0</lineSpacing>
+			<zIndex>179</zIndex>
+		</text>	
+		<imagegrid name="gamegrid">
+			<pos>0.107 0.191</pos>
+			<size>0.9 0.56</size>
+			<margin>0.011 0.020</margin>
+			<scrollDirection>vertical</scrollDirection>
+			<folderImage>./art/folder.png</folderImage>		
+			<animate>false</animate>
+		</imagegrid>
+		<gridtile name="default">
+			<size>0.122 0.28</size>
+			<padding>16 16</padding>
+			<backgroundImage>./blank.png</backgroundImage>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<backgroundColor>ffffff</backgroundColor>
+			<imageColor>ffffff</imageColor>
+		</gridtile>
+		<gridtile name="selected">
+			<size>0.122 0.28</size>
+			<backgroundImage>./tile-selected.png</backgroundImage>
+			<backgroundColor>ffffff</backgroundColor>
+		</gridtile>				
+	</view>
+
+</theme>

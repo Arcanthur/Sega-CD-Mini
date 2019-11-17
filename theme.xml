@@ -1,0 +1,76 @@
+<theme>
+    <formatVersion>6</formatVersion>
+		
+	<view name="system, grid">	
+		<helpsystem name="help">
+			<fontPath>./art/sega.otf</fontPath>
+			<origin>0.5 1</origin>
+			<pos>0.5 0.980</pos>
+			<fontSize>0.022</fontSize>
+			<textColor>505050aa</textColor>
+			<iconColor>c0c0c0</iconColor>
+		</helpsystem>							
+	</view>
+	
+	<view name="system">
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./art/homewallpaper.png</path>
+		</image>
+		<helpsystem name="help">
+			<fontPath>./art/sega.otf</fontPath>
+			<origin>0.5 1</origin>
+			<pos>0.5 0.980</pos>
+			<fontSize>0.022</fontSize>
+			<textColor>505050aa</textColor>
+			<iconColor>c0c0c0</iconColor>
+		</helpsystem>				
+	
+		<carousel name="systemcarousel">
+			<type>vertical</type>
+			<color>00000000</color>
+			<logoScale>1.2</logoScale>
+			<logoSize>0.5 0.20</logoSize>
+			<size>1.0 0.5</size>
+			<pos>0.5 0.50</pos>
+			<origin>0.5 0.5</origin>
+			<maxLogoCount>5</maxLogoCount>
+		</carousel>		
+		<text name="logoText">
+			<pos>0.0 0.0</pos>
+			<size>1.0 1.0</size>
+			<fontSize>0.04</fontSize>
+			<fontPath>./art/sega.otf</fontPath>
+			<color>f0f0f0</color>
+			<text>${system.fullName}</text>	
+			<forceUppercase>true</forceUppercase>
+		</text>		
+      <text name="systemInfo">     
+			<pos>0.5 0.844</pos>
+			<size>0.33 0.0592592592592593</size>
+			<origin>0.5 0.5</origin>
+			<fontPath>./art/sega.otf</fontPath>
+			<fontSize>0.033</fontSize>
+			<color>101010</color>
+			<forceUppercase>true</forceUppercase>	
+			<lineSpacing>1.0</lineSpacing>	     
+      </text>		
+	</view>
+	
+	<view name="grid">	
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./art/background.png</path>
+		</image>
+		<image name="console" extra="true">
+			<pos>0.5 0.064</pos>
+			<origin>0.5 0.3</origin>
+			<maxSize>0.36 0.14</maxSize>
+			<path>./art/logos/${system.theme}.png</path>
+			<zIndex>150</zIndex>
+		</image>
+	</view>
+
+</theme>
