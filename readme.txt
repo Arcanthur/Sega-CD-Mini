@@ -10,7 +10,7 @@
 To install run this command:    -
 ---------------------------------
 
-sudo mkdir -p "/etc/emulationstation/themes/Neo Geo Classic/" && sudo git clone https://github.com/Arcanthur/es-theme-NeoGeoClassic.git "/etc/emulationstation/themes/Neo Geo Classic/" --branch master --depth=1
+sudo mkdir -p "/etc/emulationstation/themes/SegaCD Mini/" && sudo git clone https://github.com/Arcanthur/Sega-CD-Mini.git "/etc/emulationstation/themes/SegaCD Mini/" --branch master --depth=1
 
 ----------------------------------
 ----------------------------------
