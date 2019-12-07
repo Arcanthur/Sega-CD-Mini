@@ -31,7 +31,7 @@ Changelog - v 2.0 -             -
 To install run this command:    -
 ---------------------------------
 
-sudo mkdir -p "/etc/emulationstation/themes/Neo Geo Classic/" && sudo git clone https://github.com/Arcanthur/es-theme-NeoGeoClassic.git "/etc/emulationstation/themes/Neo Geo Classic/" --branch master --depth=1
+sudo mkdir -p "/etc/emulationstation/themes/Sega CD Mini/" && sudo git clone https://github.com/Arcanthur/Sega-CD-Mini.git "/etc/emulationstation/themes/Sega CD Mini/" --branch master --depth=1
 
 ----------------------------------
 ----------------------------------
@@ -81,11 +81,11 @@ https://github.com/Naprosnia/RetroPie_BGM_Player
 
 Due to memory retrictions on the Pi, box art will need to be optimized and shrunk down to run properly.  Max recommended image size is 242 x 340.  If you run less systems, and have small gamelists larger resolutions may be possible.
 
-I have created box art packs to help get you started, but your roms will need to have the same names as mine.  I will include gamelist.xml's and a custom es_systems.cfg as well to make things easier.
+Below is an addon pack to help get you started, but your roms will need to have the same names as mine.  Included is box arts, screenshots, videos, gamelist.xmls, and a custom es_systems.cfg.
 
 Download these here:
 
-https://drive.google.com/open?id=1Kw5XMNTz0hGp9zgSBFcpTevjYp0whJ3C
+https://drive.google.com/open?id=1ZJP1sE5WY0kDcTv1ZSqbYnALzR2vxhd2
 
 
 ----------------------------------
