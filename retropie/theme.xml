@@ -1,8 +1,43 @@
 <theme>
-    <formatVersion>6</formatVersion>
-    <include>./../theme.xml</include>
-	
+	<formatVersion>6</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="detailed, video">
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../art/settingsbackground2.png</path>
+		</image>
+		<image name="borderfix" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../art/borderfix.png</path>
+			<zIndex>104</zIndex>
+		</image>
+		<text name="md_description">
+			<origin>0.5 0.5</origin>
+			<pos>0.755 0.806</pos>
+			<fontPath>./../art/sega.otf</fontPath>
+			<fontSize>0.022</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.3 0.065</size>
+			<color>d0d0d0</color>
+			<zIndex>120</zIndex>
+		</text>
+	</view>	
+
 	<view name="grid">
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../art/settingsbackground.png</path>
+		</image>
+		<image name="borderfix" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../art/borderfix.png</path>
+			<zIndex>104</zIndex>
+		</image>
 		<image name="console" extra="true">
 			<pos>0.5 0.064</pos>
 			<origin>0.5 0.3</origin>
@@ -11,15 +46,15 @@
 			<zIndex>150</zIndex>
 		</image>
 		<imagegrid name="gamegrid">
-			<pos>0.08 0.23</pos>
-			<size>0.90 0.52</size>
-			<margin>0.028 0.052</margin>
+			<pos>0.168 0.305</pos>
+			<size>0.75 0.43</size>
+			<margin>0.016 0.032</margin>
 			<scrollDirection>vertical</scrollDirection>
 			<animate>false</animate>
 		</imagegrid>
 
 		<gridtile name="default">
-			<size>0.14 0.24</size>
+			<size>0.12 0.20</size>
 			<padding>36 36</padding>
 			<backgroundImage>./config-tile.png</backgroundImage>
 			<backgroundCornerSize>0 0</backgroundCornerSize>
@@ -28,35 +63,31 @@
 		</gridtile>
 
 		<gridtile name="selected">
-			<size>0.14 0.24</size>
+			<size>0.12 0.20</size>
 			<backgroundImage>./config-tile-selected.png</backgroundImage>
 			<backgroundColor>ffffff</backgroundColor>
-		</gridtile>	
-		<image name="arrows" extra="true">
-			<pos>0.93 0.475</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>0.043 0.78</maxSize>
-			<path>./../art/arrows.png</path>
-			<zIndex>178</zIndex>
-		</image>
-		<image name="titlebar" extra="true">
-			<pos>0.5 0.88</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>1.0 0.150</maxSize>
-			<path>./../art/titlebar.png</path>
-			<zIndex>175</zIndex>
-		</image>
+		</gridtile>
 		<text name="md_name">
-			<pos>0.5 0.87825</pos>
+			<pos>0.5 0.235</pos>
 			<size>0.68 0.0592592592592593</size>
 			<origin>0.5 0.5</origin>
 			<fontPath>./../art/sega.otf</fontPath>
 			<fontSize>0.036</fontSize>
-			<color>202020</color>
+			<color>c0c0c0</color>
+			<forceUppercase>true</forceUppercase>	
+			<lineSpacing>1.0</lineSpacing>
+			<zIndex>179</zIndex>
+		</text>	
+		<text name="md_description">
+			<pos>0.5 0.8132</pos>
+			<size>0.68 0.0592592592592593</size>
+			<origin>0.5 0.5</origin>
+			<fontPath>./../art/sega.otf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>b0b0b0</color>
 			<forceUppercase>true</forceUppercase>	
 			<lineSpacing>1.0</lineSpacing>
 			<zIndex>179</zIndex>
 		</text>	
 	</view>
-	
 </theme>

@@ -1,20 +1,74 @@
 <theme>
-    <formatVersion>6</formatVersion>
-	
+	<formatVersion>6</formatVersion>
+
 	<include>./../theme.xml</include>
-		
-	<view name="grid">	
+
+	<view name="detailed, video">
+		<text name="md_lbl_players">
+			<origin>0.5 0.5</origin>
+			<pos>0.755 0.79</pos>
+			<fontPath>./../art/sega.otf</fontPath>
+			<fontSize>0.022</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.3 0.3</size>
+			<color>d0d0d0</color>
+			<zIndex>120</zIndex>
+		</text>
+		<text name="md_players">
+			<origin>0.5 0.5</origin>
+			<pos>0.82 0.79</pos>
+			<fontPath>./../art/sega.otf</fontPath>
+			<fontSize>0.020</fontSize>
+			<size>0.3 0.3</size>
+			<color>d0d0d0</color>
+			<zIndex>120</zIndex>
+		</text>
+		<text name="md_lbl_releasedate">
+			<origin>0.5 0.5</origin>
+			<pos>0.85 0.79</pos>
+			<fontPath>./../art/sega.otf</fontPath>
+			<fontSize>0.022</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.3 0.3</size>
+			<color>d0d0d0</color>
+			<zIndex>120</zIndex>         
+		</text>
+		<datetime name="md_releasedate">
+			<origin>0.5 0.5</origin>
+			<pos>0.92 0.79</pos>
+			<fontPath>./../art/sega.otf</fontPath>
+			<fontSize>0.022</fontSize>
+			<size>0.3 0.3</size>
+			<color>d0d0d0</color>
+			<zIndex>120</zIndex>         
+		</datetime>
+		<text name="md_lbl_developer">
+			<origin>0.5 0.5</origin>
+			<pos>0.755 0.825</pos>
+			<fontPath>./../art/sega.otf</fontPath>
+			<fontSize>0.022</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.3 0.3</size>
+			<color>d0d0d0</color>
+			<zIndex>120</zIndex>         
+		</text>
+		<text name="md_developer">
+			<origin>0.5 0.5</origin>
+			<pos>0.835 0.825</pos>
+			<fontPath>./../art/sega.otf</fontPath>
+			<fontSize>0.022</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<size>0.3 0.3</size>
+			<color>d0d0d0</color>
+			<zIndex>120</zIndex>         
+		</text>
+	</view>
+
+	<view name="grid, detailed, video">
 		<image name="background" extra="true">
 			<pos>0 0</pos>
 			<size>1 1</size>
-			<path>./../art/background.png</path>
-		</image>
-		<image name="titlebar" extra="true">
-			<pos>0.5 0.88</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>1.0 0.150</maxSize>
-			<path>./../art/titlebar.png</path>
-			<zIndex>175</zIndex>
+			<path>./../art/background2.png</path>
 		</image>
 		<image name="settingsicon" extra="true">
 			<pos>0.14 0.11</pos>
@@ -29,6 +83,21 @@
 			<maxSize>0.95 0.105</maxSize>
 			<path>./../art/sorticon.png</path>
 			<zIndex>177</zIndex>
+		</image>
+	</view>
+
+	<view name="grid">	
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./../art/background.png</path>
+		</image>
+		<image name="titlebar" extra="true">
+			<pos>0.5 0.88</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>1.0 0.150</maxSize>
+			<path>./../art/titlebar.png</path>
+			<zIndex>175</zIndex>
 		</image>
 		<image name="arrows" extra="true">
 			<pos>0.93 0.475</pos>
@@ -70,5 +139,4 @@
 			<backgroundColor>ffffff</backgroundColor>
 		</gridtile>				
 	</view>
-
 </theme>

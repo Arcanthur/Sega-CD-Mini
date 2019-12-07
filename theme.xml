@@ -1,69 +1,51 @@
 <theme>
-    <formatVersion>6</formatVersion>
-		
-	<view name="system, grid">	
-		<helpsystem name="help">
-			<fontPath>./art/sega.otf</fontPath>
-			<origin>0.5 1</origin>
-			<pos>0.5 0.980</pos>
-			<fontSize>0.022</fontSize>
-			<textColor>505050aa</textColor>
-			<iconColor>c0c0c0</iconColor>
-		</helpsystem>							
-	</view>
-	
+	<formatVersion>6</formatVersion>
+
 	<view name="system">
 		<image name="background" extra="true">
 			<pos>0 0</pos>
 			<size>1 1</size>
-			<path>./art/homewallpaper.png</path>
+			<path>./art/homebackground.png</path>
 		</image>
-		<helpsystem name="help">
-			<fontPath>./art/sega.otf</fontPath>
-			<origin>0.5 1</origin>
-			<pos>0.5 0.980</pos>
-			<fontSize>0.022</fontSize>
-			<textColor>505050aa</textColor>
-			<iconColor>c0c0c0</iconColor>
-		</helpsystem>				
-	
+		<image name="help-image" extra="true">
+			<pos>0 1</pos>
+			<size>1 0</size>
+			<path>./art/help-system.png</path>
+			<color>ffffff</color>	
+			<origin>0 1</origin>
+			<zIndex>100</zIndex>			
+		</image>		
 		<carousel name="systemcarousel">
 			<type>vertical</type>
 			<color>00000000</color>
-			<logoScale>1.2</logoScale>
-			<logoSize>0.5 0.20</logoSize>
-			<size>1.0 0.5</size>
-			<pos>0.5 0.50</pos>
+			<logoScale>1.0</logoScale>
+			<logoSize>0.5 0.34</logoSize>
+			<size>1.0 0.55</size>
+			<pos>0.5 0.51</pos>
 			<origin>0.5 0.5</origin>
-			<maxLogoCount>5</maxLogoCount>
+			<logoAlignment>center</logoAlignment>
+			<maxLogoCount>7</maxLogoCount>
 		</carousel>		
 		<text name="logoText">
-			<pos>0.0 0.0</pos>
-			<size>1.0 1.0</size>
-			<fontSize>0.04</fontSize>
+			<fontSize>0.03</fontSize>
 			<fontPath>./art/sega.otf</fontPath>
 			<color>f0f0f0</color>
 			<text>${system.fullName}</text>	
 			<forceUppercase>true</forceUppercase>
 		</text>		
-      <text name="systemInfo">     
-			<pos>0.5 0.844</pos>
+		<text name="systemInfo">     
+			<pos>0.5 0.87</pos>
 			<size>0.33 0.0592592592592593</size>
 			<origin>0.5 0.5</origin>
 			<fontPath>./art/sega.otf</fontPath>
-			<fontSize>0.033</fontSize>
-			<color>101010</color>
+			<fontSize>0.028</fontSize>
+			<color>c0c0c0</color>
 			<forceUppercase>true</forceUppercase>	
 			<lineSpacing>1.0</lineSpacing>	     
-      </text>		
+		</text>		
 	</view>
-	
+
 	<view name="grid">	
-		<image name="background" extra="true">
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<path>./art/background.png</path>
-		</image>
 		<image name="console" extra="true">
 			<pos>0.5 0.064</pos>
 			<origin>0.5 0.3</origin>
@@ -71,6 +53,78 @@
 			<path>./art/logos/${system.theme}.png</path>
 			<zIndex>150</zIndex>
 		</image>
+		<image name="help-image" extra="true">
+			<pos>0 1</pos>
+			<size>1 0</size>
+			<path>./art/help-gamelist.png</path>
+			<color>ffffff</color>	
+			<origin>0 1</origin>
+			<zIndex>100</zIndex>			
+		</image>
 	</view>
-
+	<view name="detailed, video">
+		<image name="overlay" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./art/detailed-video-overlay.png</path>
+			<zIndex>15</zIndex>
+		</image>
+		<textlist name="gamelist">
+			<selectorImagePath>./art/selector.png</selectorImagePath>
+			<selectorOffsetY>-0.01</selectorOffsetY>
+			<selectorHeight>0.064</selectorHeight>
+			<selectorColor>ffffff</selectorColor>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/sega.otf</fontPath>
+			<fontSize>0.025</fontSize>
+			<lineSpacing>2.446</lineSpacing>
+			<primaryColor>ffffff66</primaryColor>
+			<secondaryColor>ffff00</secondaryColor>
+			<selectedColor>ffffff</selectedColor>
+			<size>0.4946 0.58</size>
+			<pos>0.3166 0.60</pos>
+			<horizontalMargin>0.02</horizontalMargin>
+			<origin>0.5 0.5</origin>
+		</textlist>
+		<image name="console" extra="true">
+			<pos>0.5 0.064</pos>
+			<origin>0.5 0.3</origin>
+			<maxSize>0.36 0.14</maxSize>
+			<path>./art/logos/${system.theme}.png</path>
+			<zIndex>150</zIndex>
+		</image>		
+		<image name="help-image" extra="true">
+			<pos>0 1</pos>
+			<size>1 0</size>
+			<path>./art/help-gamelist2.png</path>
+			<color>ffffff</color>	
+			<origin>0 1</origin>
+			<zIndex>100</zIndex>			
+		</image>
+	</view>
+	<view name="detailed">	
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<pos>0.755 0.5240</pos>
+			<maxSize>0.3155 0.416</maxSize>
+			<zIndex>20</zIndex>         
+		</image>
+	</view>	
+	<view name="video">   
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.7557 0.5240</pos>
+			<size>0.3155 0.416</size>
+			<delay>1</delay>
+			<zIndex>2</zIndex>         
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+		</video>   
+		<image name="md_marquee">
+			<origin>0.5 0.5</origin>
+			<pos>0.7556 0.5240</pos>
+			<size>0.3154 0.416</size>
+			<zIndex>20</zIndex>         
+		</image>		
+	</view>
 </theme>

@@ -2,19 +2,73 @@
     <formatVersion>6</formatVersion>
 	
 	<include>./../theme.xml</include>
-		
-	<view name="grid">	
+	
+	<view name="detailed, video">
+		  <text name="md_lbl_players">
+			 <origin>0.5 0.5</origin>
+				<pos>0.755 0.79</pos>
+				<fontPath>./../art/sega.otf</fontPath>
+			 <fontSize>0.022</fontSize>
+			 <forceUppercase>1</forceUppercase>
+			 <size>0.3 0.3</size>
+			 <color>d0d0d0</color>
+			 <zIndex>120</zIndex>
+		  </text>
+		  <text name="md_players">
+			 <origin>0.5 0.5</origin>
+				<pos>0.82 0.79</pos>
+				<fontPath>./../art/sega.otf</fontPath>
+			 <fontSize>0.020</fontSize>
+			 <size>0.3 0.3</size>
+			 <color>d0d0d0</color>
+			 <zIndex>120</zIndex>
+		  </text>
+		  <text name="md_lbl_releasedate">
+			 <origin>0.5 0.5</origin>
+				<pos>0.85 0.79</pos>
+				<fontPath>./../art/sega.otf</fontPath>
+			 <fontSize>0.022</fontSize>
+			 <forceUppercase>1</forceUppercase>
+			 <size>0.3 0.3</size>
+			 <color>d0d0d0</color>
+			 <zIndex>120</zIndex>         
+		  </text>
+		  <datetime name="md_releasedate">
+			 <origin>0.5 0.5</origin>
+				<pos>0.92 0.79</pos>
+				<fontPath>./../art/sega.otf</fontPath>
+			 <fontSize>0.022</fontSize>
+			 <size>0.3 0.3</size>
+			 <color>d0d0d0</color>
+			 <zIndex>120</zIndex>         
+		  </datetime>
+		  <text name="md_lbl_developer">
+			 <origin>0.5 0.5</origin>
+				<pos>0.755 0.825</pos>
+				<fontPath>./../art/sega.otf</fontPath>
+			 <fontSize>0.022</fontSize>
+			 <forceUppercase>1</forceUppercase>
+			 <size>0.3 0.3</size>
+			 <color>d0d0d0</color>
+			 <zIndex>120</zIndex>         
+		  </text>
+		  <text name="md_developer">
+			 <origin>0.5 0.5</origin>
+				<pos>0.835 0.825</pos>
+				<fontPath>./../art/sega.otf</fontPath>
+			 <fontSize>0.022</fontSize>
+			 <forceUppercase>1</forceUppercase>
+			 <size>0.3 0.3</size>
+			 <color>d0d0d0</color>
+			 <zIndex>120</zIndex>         
+		  </text>
+	</view>
+	
+	<view name="grid, detailed, video">
 		<image name="background" extra="true">
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<path>./../art/bgEurope.png</path>
-		</image>
-		<image name="titlebar" extra="true">
-			<pos>0.5 0.885</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>0.96 0.150</maxSize>
-			<path>./../art/mdetitlebar.png</path>
-			<zIndex>175</zIndex>
 		</image>
 		<image name="settingsicon" extra="true">
 			<pos>0.14 0.10</pos>
@@ -29,6 +83,16 @@
 			<maxSize>0.95 0.09</maxSize>
 			<path>./../art/mdesorticon.png</path>
 			<zIndex>162</zIndex>
+		</image>
+	</view>	
+	
+	<view name="grid">	
+		<image name="titlebar" extra="true">
+			<pos>0.5 0.885</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.96 0.150</maxSize>
+			<path>./../art/mdetitlebar.png</path>
+			<zIndex>175</zIndex>
 		</image>
 		<image name="arrows" extra="true">
 			<pos>0.93 0.475</pos>

@@ -1,21 +1,42 @@
 =========SegaCD Mini THEME=========
 =			  	  =
-=           Version 1.0           =
+=           Version 2.0           =
 =       Created by Arcanthur      =
 =				  =
 ===================================
 
+---------------------------------
+Changelog - v 2.0 -             -
+---------------------------------
+
+- Added support for Detailed, and Video view types
+- Added Sega Arcade Classics
+- Added Mega-CD (Japan)
+- Added Sega Genesis Mini Playlist support
+- Redesigned system and settings menu
+- Redesigned Game Gear section
+- Cleaned up several graphical assets
+- Further optimized the XML
+- Added custom navigation helper icons
+- Full support for Favorites, Last Played, and All Games auto playlists
+
+- Change these settings for the optimal experience
+	- UI Settings > Carousel Transitions > Off
+	- On Screen Help > Off
+
+- Posters will show in the Detailed view
+- Screenshots will show in the Video view if you have them scraped as <marquee>
 
 ---------------------------------
 To install run this command:    -
 ---------------------------------
 
-sudo mkdir -p "/etc/emulationstation/themes/SegaCD Mini/" && sudo git clone https://github.com/Arcanthur/Sega-CD-Mini.git "/etc/emulationstation/themes/SegaCD Mini/" --branch master --depth=1
+sudo mkdir -p "/etc/emulationstation/themes/Neo Geo Classic/" && sudo git clone https://github.com/Arcanthur/es-theme-NeoGeoClassic.git "/etc/emulationstation/themes/Neo Geo Classic/" --branch master --depth=1
 
 ----------------------------------
 ----------------------------------
 
-To use this theme, it is highly recommended you install the emulationstation-dev branch.  The dev branch has better support for the grid view and this theme uses that view exclusively (for now).
+To use this theme, it is highly recommended you install the emulationstation-dev branch.  The dev branch has better support for the grid view.
 
 ---------------------------------
 -  To install the dev branch    -
@@ -37,7 +58,11 @@ Sega Genesis
 Sega Mega Drive (Europe)
 Sega Mega Drive (Japan)
 Sega CD
+Mega CD (Japan)
 Sega 32X
+Sega Game Gear
+Sega Arcade Classics
+Genesis Mini (Playlist)
 
 If assets don't load for your system check the folder name of your system and verify if matches the theme.
 
@@ -61,3 +86,11 @@ I have created box art packs to help get you started, but your roms will need to
 Download these here:
 
 https://drive.google.com/open?id=1Kw5XMNTz0hGp9zgSBFcpTevjYp0whJ3C
+
+
+----------------------------------
+Like my work?                    -
+----------------------------------
+
+Want to say thanks, or buy me a beer?
+https://paypal.me/pools/c/8kA8RB42Ue

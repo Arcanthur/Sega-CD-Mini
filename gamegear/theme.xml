@@ -2,33 +2,97 @@
     <formatVersion>6</formatVersion>
 	
 	<include>./../theme.xml</include>
-		
-	<view name="grid">	
+	
+	<view name="detailed, video">
+		  <text name="md_lbl_players">
+			 <origin>0.5 0.5</origin>
+				<pos>0.755 0.79</pos>
+				<fontPath>./../art/sega.otf</fontPath>
+			 <fontSize>0.022</fontSize>
+			 <forceUppercase>1</forceUppercase>
+			 <size>0.3 0.3</size>
+			 <color>d0d0d0</color>
+			 <zIndex>120</zIndex>
+		  </text>
+		  <text name="md_players">
+			 <origin>0.5 0.5</origin>
+				<pos>0.82 0.79</pos>
+				<fontPath>./../art/sega.otf</fontPath>
+			 <fontSize>0.020</fontSize>
+			 <size>0.3 0.3</size>
+			 <color>d0d0d0</color>
+			 <zIndex>120</zIndex>
+		  </text>
+		  <text name="md_lbl_releasedate">
+			 <origin>0.5 0.5</origin>
+				<pos>0.85 0.79</pos>
+				<fontPath>./../art/sega.otf</fontPath>
+			 <fontSize>0.022</fontSize>
+			 <forceUppercase>1</forceUppercase>
+			 <size>0.3 0.3</size>
+			 <color>d0d0d0</color>
+			 <zIndex>120</zIndex>         
+		  </text>
+		  <datetime name="md_releasedate">
+			 <origin>0.5 0.5</origin>
+				<pos>0.92 0.79</pos>
+				<fontPath>./../art/sega.otf</fontPath>
+			 <fontSize>0.022</fontSize>
+			 <size>0.3 0.3</size>
+			 <color>d0d0d0</color>
+			 <zIndex>120</zIndex>         
+		  </datetime>
+		  <text name="md_lbl_developer">
+			 <origin>0.5 0.5</origin>
+				<pos>0.755 0.825</pos>
+				<fontPath>./../art/sega.otf</fontPath>
+			 <fontSize>0.022</fontSize>
+			 <forceUppercase>1</forceUppercase>
+			 <size>0.3 0.3</size>
+			 <color>d0d0d0</color>
+			 <zIndex>120</zIndex>         
+		  </text>
+		  <text name="md_developer">
+			 <origin>0.5 0.5</origin>
+				<pos>0.835 0.825</pos>
+				<fontPath>./../art/sega.otf</fontPath>
+			 <fontSize>0.022</fontSize>
+			 <forceUppercase>1</forceUppercase>
+			 <size>0.3 0.3</size>
+			 <color>d0d0d0</color>
+			 <zIndex>120</zIndex>         
+		  </text>
+	</view>
+	
+	<view name="grid, detailed, video">
 		<image name="background" extra="true">
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<path>./../art/ggbackground.png</path>
 		</image>
-		<image name="titlebar" extra="true">
-			<pos>0.5 0.88</pos>
-			<origin>0.5 0.5</origin>
-			<maxSize>1.0 0.150</maxSize>
-			<path>./../art/titlebar.png</path>
-			<zIndex>175</zIndex>
-		</image>
 		<image name="settingsicon" extra="true">
 			<pos>0.14 0.10</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.95 0.09</maxSize>
-			<path>./../art/smssettingsicon.png</path>
+			<path>./../art/ggsettingsicon.png</path>
 			<zIndex>176</zIndex>
 		</image>
 		<image name="sorticon" extra="true">
 			<pos>0.86 0.10</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.95 0.09</maxSize>
-			<path>./../art/smssorticon.png</path>
+			<path>./../art/ggsorticon.png</path>
 			<zIndex>177</zIndex>
+		</image>
+	</view>	
+		
+	<view name="grid">	
+		<image name="titlebar" extra="true">
+			<pos>0.5 0.88</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>1.0 0.150</maxSize>
+			<path>./../art/ggtitlebar.png</path>
+			<zIndex>175</zIndex>
 		</image>
 		<image name="arrows" extra="true">
 			<pos>0.93 0.475</pos>
@@ -43,11 +107,12 @@
 			<origin>0.5 0.5</origin>
 			<fontPath>./../art/sega.otf</fontPath>
 			<fontSize>0.036</fontSize>
-			<color>202020</color>
+			<color>ffffff</color>
 			<forceUppercase>true</forceUppercase>	
 			<lineSpacing>1.0</lineSpacing>
 			<zIndex>179</zIndex>
 		</text>	
+
 		<imagegrid name="gamegrid">
 			<pos>0.107 0.191</pos>
 			<size>0.9 0.56</size>
@@ -69,6 +134,20 @@
 			<backgroundImage>./tile-selected.png</backgroundImage>
 			<backgroundColor>ffffff</backgroundColor>
 		</gridtile>				
+	</view>
+
+	<view name="grid">	
+		<text name="md_name">
+			<pos>0.5 0.868</pos>
+			<size>0.68 0.0592592592592593</size>
+			<origin>0.5 0.5</origin>
+			<fontPath>./../art/orangekid.ttf</fontPath>
+			<fontSize>0.042</fontSize>
+			<color>237adb</color>
+			<forceUppercase>true</forceUppercase>	
+			<lineSpacing>1.0</lineSpacing>
+			<zIndex>184</zIndex>
+		</text>		
 	</view>
 
 </theme>
