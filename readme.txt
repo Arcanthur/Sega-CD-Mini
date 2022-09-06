@@ -1,9 +1,17 @@
 =========SegaCD Mini THEME=========
 =			  	  =
-=           Version 2.0           =
+=           Version 2.1           =
 =       Created by Arcanthur      =
+=       Upgraded by elanlopes     =
 =				  =
 ===================================
+
+---------------------------------
+Changelog - v 2.1 -             -
+---------------------------------
+
+- Fixed black gamelist tile in Master System - Mark III list
+- Added navigation scroll sound
 
 ---------------------------------
 Changelog - v 2.0 -             -

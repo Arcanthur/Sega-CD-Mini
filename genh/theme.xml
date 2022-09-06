@@ -10,7 +10,7 @@
 			<margin>0.012 0.0</margin>
 			<scrollDirection>horizontal</scrollDirection>
 			<folderImage>./art/folder.png</folderImage>
-			
+			<scrollSound>./../art/sound/scroll.wav</scrollSound>
 		</imagegrid>
 		<gridtile name="default">
 			<size>0.182 0.55</size>

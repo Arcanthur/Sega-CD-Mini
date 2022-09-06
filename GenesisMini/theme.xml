@@ -119,6 +119,7 @@
 			<scrollDirection>vertical</scrollDirection>
 			<folderImage>./art/folder.png</folderImage>		
 			<animate>false</animate>
+			<scrollSound>./../art/sound/scroll.wav</scrollSound>
 		</imagegrid>
 		<gridtile name="default">
 			<size>0.118 0.28</size>

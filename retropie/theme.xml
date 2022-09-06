@@ -51,6 +51,7 @@
 			<margin>0.016 0.032</margin>
 			<scrollDirection>vertical</scrollDirection>
 			<animate>false</animate>
+			<scrollSound>./../art/sound/scroll.wav</scrollSound>
 		</imagegrid>
 
 		<gridtile name="default">
